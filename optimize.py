@@ -12,15 +12,7 @@ opt = './images/opt'
 """
 
 folders = [
-    '2012 (Henann Regency Resort and Spa, Boracay)',
-    '2013 (Bangkok, Thailand)',
-    '2014 (Macao, China)',
-    '2015 (SG)',
-    '2016 (Kota Kinabalu)',
-    '2017 (Stilts Calatagan Beach Resort, Batangas)',
-    '2018 (Lakawon, Negros)',
-    '2019 (Henann Resort Alona Beach, Bohol)',
-    '2022 (Gatsby @ GPR)'
+    
 ]
 
 
@@ -49,6 +41,7 @@ def make_folder_structure():
                     pass
         except FileNotFoundError:
             print("Invalid folder structure")
+    optimize_images()
 
 
 def optimize_images():
@@ -71,4 +64,3 @@ def optimize_images():
 
 if __name__ == '__main__':
     make_folder_structure()
-    optimize_images()
