@@ -6,7 +6,7 @@ non_opt = './images/non_opt'
 opt = './images/opt'
 
 """
-    1. run -> pip3 install -r requirements.txt
+    1. run -> pip3 install Pillow
     2. add 'Ok for posting?' company trip images into non_opt folder
     3. insert company trip name into folders
 """
